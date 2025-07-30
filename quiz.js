@@ -11,7 +11,7 @@ function checkAnswer() {
             feedback.textContent = "Correct! Well done.";
         }
         else {
-            feedback.textContent = "That's not correct. Try again!";
+            feedback.textContent = "That's incorrect. Try again!";
         }
     } else {
         alert("Please select an answer before submitting.");
